@@ -1,0 +1,414 @@
+.woocommerce-account .page-head.pr.tc {
+    display: none
+}
+
+.loyalty-header.section {
+    text-align: center;
+    padding: 10px;
+    background: var(--sg_black);
+    color: #fff
+}
+
+.e-voucher-col {
+    width: 50%;
+    display: inline-block;
+    margin-bottom: 10px
+}
+
+.loyalty-header>h4 {
+    color: #fff;
+    margin-bottom: 20px
+}
+
+.loyalty-header img {
+    width: 50px
+}
+
+.point-text {
+    font-size: 1.1rem;
+    font-weight: 700
+}
+
+.woocommerce-account a {
+    color: #008eff
+}
+
+.set-primary-container {
+    margin-bottom: 5px
+}
+
+.set-primary-container>* {
+    display: inline-block;
+    margin-right: 20px
+}
+
+.set-primary-container>input {
+    width: 200px
+}
+
+.primary-phone-important-msg {
+    font-size: .8rem;
+    color: #000;
+    margin-bottom: 20px
+}
+
+.primary-phone-set-msg {
+    color: red;
+    font-size: .8rem;
+    margin-bottom: 20px
+}
+
+.btn-sm {
+    height: 25px !important;
+    font-size: .7rem;
+    line-height: 25px !important;
+    border-radius: 8px;
+    margin: 0 10px 0 0
+}
+
+.modal-sref .delete-coupon-container {
+    margin: 20px 0 0
+}
+
+.modal-sref .sref-delete-coupon {
+    color: #ff3d71
+}
+
+.modal_type.modal-error {
+    color: RED
+}
+
+.modal_type.modal-success {
+    color: #09b566
+}
+
+.modal-sref .fa-spin,
+.account-primary-phone-set .fa-spin {
+    display: none;
+    font-size: 13px;
+    margin-left: 5px
+}
+
+.modal-sref .fa-spin,
+.verify-primary_phone_otp .fa-spin {
+    display: none;
+    font-size: 13px;
+    margin-left: 5px
+}
+
+.set-primary-container.otp-container {
+    display: none
+}
+
+.sref-no {
+    background: #2e2e2e
+}
+
+.modal-sref .modal__close {
+    background: 0 0;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 4px;
+    right: 12px
+}
+
+.modal-sref .modal_text {
+    margin: 15px 0;
+    font-size: .9rem
+}
+
+.loyalty_points {
+    margin-bottom: 20px
+}
+
+.loyalty_text {
+    color: #000
+}
+
+.referral_copy_button {
+    position: relative;
+    margin-left: 20px
+}
+
+.woocommerce-account .tooltip {
+    position: relative;
+    display: inline-block
+}
+
+.woocommerce-account .tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 12px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 0;
+    opacity: 0;
+    transition: opacity .3s;
+    font-size: 12px;
+    line-height: 18px
+}
+
+.woocommerce-account .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent
+}
+
+.woocommerce-account .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1
+}
+
+.referral_coupon {
+    font-family: monospace !important;
+    font-size: 15px !important
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px
+}
+
+.flex-col {
+    width: 50%
+}
+
+.e-voucher {
+    margin-right: 10px;
+    background: #fceaf7;
+    background: linear-gradient(90deg, rgb(255 228 247) 0%, rgba(244, 221, 246, 1) 50%, rgb(255 235 255) 100%);
+    padding: 14px;
+    border-radius: 7px;
+    text-align: center;
+    display: flex;
+    height: 150px
+}
+
+.voucher-redeem {
+    padding-left: 12px;
+    text-align: left;
+    width: 70%
+}
+
+.voucher-logo {
+    background: #fff;
+    border-radius: 7px;
+    overflow: hidden;
+    height: 122px;
+    width: 122px;
+    display: block
+}
+
+.e-voucher.customer_voucher {
+    padding: 0;
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    border-radius: 15px;
+    text-align: unset;
+    color: #fff;
+    overflow: hidden
+}
+
+.e-voucher-title {
+    font-weight: 600;
+    font-size: .9rem
+}
+
+.e-voucher-point {
+    margin-bottom: 10px;
+    color: #bf0337
+}
+
+.e-voucher-code {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 13px
+}
+
+.e-voucher-usage {
+    color: #4e2178;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #e6007e;
+    border-top-left-radius: 15px;
+    width: 65px
+}
+
+.voucher-Used .e-voucher-branding {
+    background: #000
+}
+
+.voucher-Used .e-voucher-coupon {
+    background: #2e2e2e
+}
+
+.voucher-Used .e-voucher-usage {
+    background: #000;
+    color: #e6007e
+}
+
+.customer_voucher>div {
+    height: 170px
+}
+
+.e-voucher-branding {
+    width: 33%;
+    background: #ffcae7;
+    text-align: center;
+    position: relative
+}
+
+.e-voucher-branding img {
+    height: 100%;
+    max-width: 60%
+}
+
+.e-voucher-coupon {
+    width: 67%;
+    background: #4e2178;
+    text-align: center;
+    position: relative
+}
+
+.e-voucher-text {
+    font-size: 1.6rem;
+    letter-spacing: 8px;
+    line-height: 1.6rem;
+    margin-top: 20px;
+    color: #e6007e
+}
+
+.e-voucher-details {
+    color: #ffcae7
+}
+
+.e-voucher-branding::after {
+    content: '';
+    width: 24px;
+    height: 12px;
+    background: #f6f6f8;
+    z-index: 1;
+    position: absolute;
+    right: -12px;
+    top: 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px
+}
+
+.e-voucher-coupon::before {
+    content: '';
+    width: 24px;
+    height: 12px;
+    background: #f6f6f8;
+    z-index: 1;
+    position: absolute;
+    left: -12px;
+    bottom: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px
+}
+
+.referral-link {
+    width: 60%
+}
+
+@media(max-width:991px) {
+    .myvoucher.flex-row {
+        flex-direction: column
+    }
+    .myvoucher.flex-row>* {
+        width: 100%
+    }
+    .myvoucher.flex-row>div:first-child {
+        margin-bottom: 10px
+    }
+    .e-voucher-text {
+        font-size: 1.1rem;
+        line-height: 1.1rem
+    }
+    .e-voucher-code {
+        font-size: .9rem;
+        margin-right: 9px
+    }
+    .e-voucher {
+        height: 133px
+    }
+    .voucher-logo {
+        height: 105px;
+        width: 105px
+    }
+    .e-voucher-col {
+        width: 100%
+    }
+    .e-voucher-point {
+        margin-bottom: 0
+    }
+}
+
+@media(max-width:500px) {
+    .copy-ref>input,
+    .copy-ref>div {
+        margin-bottom: 7px
+    }
+    .copy-ref button {
+        margin-left: 0 !important
+    }
+    .copy-ref {
+        display: flex;
+        flex-direction: column
+    }
+    .copy-ref input {
+        width: 100%
+    }
+    .e-voucher-list>.flex-row {
+        display: block
+    }
+    .e-voucher-list>.flex-row>div {
+        display: inline-block;
+        margin-bottom: 10px
+    }
+    .myvoucher.flex-row {
+        flex-direction: column
+    }
+    .myvoucher.flex-row>* {
+        width: 100%
+    }
+    .myvoucher.flex-row>div:first-child {
+        margin-bottom: 10px
+    }
+    .e-voucher-text {
+        font-size: 1.1rem;
+        line-height: 1.1rem
+    }
+    .e-voucher-code {
+        font-size: .9rem;
+        margin-right: 9px
+    }
+    .customer_voucher>div {
+        height: 135px
+    }
+    .e-voucher.customer_voucher {
+        height: 135px
+    }
+    .e-voucher-code {
+        margin-bottom: 0
+    }
+    .e-voucher-details {
+        font-size: .7rem
+    }
+}

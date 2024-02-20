@@ -1,0 +1,210 @@
+.xoo-ml-verified-success,
+.xoo-ml-verify-notice {
+    z-index: 99999999;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    left: 0;
+    right: 0;
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6
+}
+
+.xoo-ml-verified-success span:last-of-type a {
+    text-decoration: underline;
+    color: #3c763d;
+    margin-left: 6px
+}
+
+.xoo-ml-notice-error {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1
+}
+
+.xoo-ml-notice-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6
+}
+
+.xoo-ml-notice {
+    display: none;
+    margin-top: 10px 0
+}
+
+.xoo-ml-notice-error,
+.xoo-ml-notice-success {
+    padding: 7px 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display: block;
+    margin: 10px 0
+}
+
+button.xoo-ml-otp-verify-btn {
+    width: 100%;
+    max-width: 400px;
+    margin: 30px auto 0;
+    display: table
+}
+
+.xoo-ml-otp-input-cont {
+    margin: 0 auto;
+    display: flex;
+    width: 50%
+}
+
+form.xoo-ml-otp-form {
+    text-align: center;
+    display: none
+}
+
+.xoo-ml-otp-sent-txt {
+    margin: 0
+}
+
+span.xoo-ml-otp-no-change {
+    color: var(--pink);
+    cursor: pointer;
+    margin-left: 5px
+}
+
+.xoo-ml-otp-input-cont input.xoo-ml-otp-input:focus {
+    outline: 0;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #0d81fe
+}
+
+.xoo-ml-otp-input-cont input.xoo-ml-otp-input {
+    max-width: 60px;
+    text-align: center;
+    margin-right: 15px;
+    background-color: transparent;
+    color: #000;
+    font-weight: 600;
+    font-size: 23px;
+    border-bottom: 1px solid #000;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    box-shadow: 0 0 0
+}
+
+.xoo-ml-otp-notice-cont {
+    height: 50px;
+    margin-bottom: 15px
+}
+
+.xoo-ml-otp-input-cont>input {
+    width: 15%;
+    margin: 0 auto;
+    background: #fff !important;
+    border: 0 !important;
+    border-bottom: 1px solid #000 !important
+}
+
+form.xoo-ml-otp-form .xoo-ml-notice {
+    display: table;
+    margin: 0 auto
+}
+
+span.xoo-ml-reg-phone-change {
+    position: relative;
+    display: none;
+    float: right;
+    top: -22px;
+    right: 10px;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    font-size: 13px;
+    height: 0;
+    line-height: 0;
+    margin: 0;
+    padding: 0
+}
+
+.xoo-ml-processing:after {
+    animation: fa-spin 1s infinite steps(8);
+    content: "\f110";
+    font-family: FontAwesome;
+    font-size: 14px;
+    position: absolute;
+    margin-left: 5px
+}
+
+a.xoo-ml-otp-resend-link {
+    color: var(--pink);
+    text-decoration: underline !important;
+    cursor: pointer
+}
+
+.xoo-ml-otp-resend {
+    margin-top: 10px
+}
+
+a.xoo-ml-otp-resend-link.xoo-ml-disabled {
+    pointer-events: none !important
+}
+
+.xoo-ml-reg-has-cc {
+    display: flex
+}
+
+.xoo-ml-reg-has-cc select.xoo-ml-reg-phone-cc-select,
+.xoo-ml-reg-has-cc input.xoo-ml-reg-phone-cc-text {
+    max-width: 100px;
+    margin-right: 10px
+}
+
+.xoo-ml-regphin {
+    position: relative;
+    width: 100%
+}
+
+input#xoo-ml-reg-phone {
+    width: 100%
+}
+
+span.xoo-ml-low-back {
+    color: #4a90e2;
+    text-decoration: underline;
+    text-align: center;
+    display: block;
+    cursor: pointer
+}
+
+button.xoo-ml-login-otp-btn {
+    margin-top: 13px
+}
+
+.xoo-ml-processing {
+    pointer-events: none
+}
+
+.xoo-el-container .xoo-ml-notice {
+    margin-top: -15px;
+    width: calc(100% - 20px)
+}
+
+span.xoo-ml-or {
+    display: none;
+    margin: 20px 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 1px solid #333;
+    font-size: 14px
+}
+
+.xoo-aff-cont-phone span.xoo-ml-reg-phone-change {
+    position: absolute;
+    top: 50%
+}
